@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl'
+import headShot from "../images/mypicture.jpeg"
 
 class Contact extends Component {
   render () {
@@ -9,18 +10,13 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Brian Prickril</h2>
             <img
-              src='https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png'
+              src={headShot}
               alt='avatar'
               style={{ height: '300px' }}
             />
 
             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was.
+              I am currently pursuing entry-level opportunities in the tech industry.  Please do not hesitate to contact me if you think I am a fit for your team.
             </p>
           </Cell>
 
@@ -35,7 +31,7 @@ class Contact extends Component {
               <ListItem>
                 <ListItemContent style={{fontSize: "30px", fontFamily: "Anton"}}>
                   <i className="fa fa-phone-square" aria-hidden="true" />  
-                    (123) 456-7890
+                    (609) 923-2399
                     
                     </ListItemContent>
               </ListItem>
