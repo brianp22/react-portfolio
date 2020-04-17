@@ -9,7 +9,7 @@ class AboutMe extends Component {
         <Grid className="contact-grid">
           <Cell col={12}>
             <h2>Brian Prickril</h2>
-            <img src={headShot} alt="avatar" style={{ height: "300px" }} />
+            <img src={headShot} alt="avatar" style={{ height: "300px", borderRadius: "10px" }} />
 
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               Brian is currently a full-stack development student who will be

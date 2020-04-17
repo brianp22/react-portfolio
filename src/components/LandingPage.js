@@ -1,27 +1,28 @@
 import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
+import headShot from "../images/mypicture.jpeg";
 
 class LandingPage extends Component {
   render () {
     return (
-      <div style={{ width: '100%', margin: 'auto' }}>
+      <div style={{ width: '100%', height: '100%', margin: 'auto' }}>
         <Grid className='landing-grid'>
           <Cell col={12}>
-            <img
-              src='https://www.shareicon.net/data/512x512/2015/09/18/103160_man_512x512.png'
+            <div className='banner-text'>
+              <h1>Brian Prickril</h1>
+              <img
+              src={headShot}
               alt='avatar'
               className='avatar-img'
             />
-
-            <div className='banner-text'>
-              <h1>Full-Stack Web Developer</h1>
+              <h2>Full-Stack JavaScript Developer</h2>
               <hr />
               <p>HTML/CSS | JavaScript | React | NodeJS | Express | MongoDB</p>
 
               <div className='social-links'>
                 {/*/ LinkedIn */}
                 <a
-                  href='http://www.google.com'
+                  href='https://www.linkedin.com/in/brianprickril/'
                   rel='noopener noreferrer'
                   target='_blank'
                 >
@@ -30,7 +31,7 @@ class LandingPage extends Component {
 
                 {/*/ Github */}
                 <a
-                  href='http://www.google.com'
+                  href='https://github.com/brianp22'
                   rel='noopener noreferrer'
                   target='_blank'
                 >

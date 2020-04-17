@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/Main';
+import Footer from './components/Footer'
 import { Link } from 'react-router-dom';
 
 
@@ -11,9 +12,9 @@ function App() {
     <Layout>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/" >My Portfolio</Link>} scroll>
             <Navigation>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/aboutme">ABOUT ME</Link>
+                <Link to="/projects">PROJECTS</Link>
+                <Link to="/contact">CONTACT</Link>
             </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color: 'Black'}} to="/" >My Portfolio</Link>}>
@@ -24,9 +25,9 @@ function App() {
             </Navigation>
         </Drawer>
         <Content>
-            <div className="page-content" />
             <Main></Main>
         </Content>
+        <Footer />
     </Layout>
 </div>
   );
