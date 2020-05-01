@@ -9,10 +9,10 @@ function Footer() {
             <div className="footer">
             <Link className="mr-4" style={{color: "white"}} to={Resume} target="_blank">Resume
             </Link>
-            <Link className="mr-4" style={{color: "white"}} to="https://github.com/brianp22" target="_blank">GitHub
-            </Link>
-            <Link className="mr-4" style={{color: "white"}} to="https://www.linkedin.com/in/brianprickril/" target="_blank">LinkedIn
-            </Link>
+            <a className="mr-4" style={{color: "white"}} href="https://github.com/brianp22" target="_blank">GitHub
+            </a>
+            <a className="mr-4" style={{color: "white"}} href="https://www.linkedin.com/in/brianprickril/" target="_blank">LinkedIn
+            </a>
             <Link className="mr-4" style={{color: "white"}} to={AWS}target="_blank">AWS Cert
             </Link>
             <br/>
