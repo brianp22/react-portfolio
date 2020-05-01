@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import { Grid, Cell } from "react-mdl";
 import headShot from "../images/mypicture.jpeg";
 
 class Contact extends Component {
@@ -9,7 +9,7 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Brian Prickril</h2>
-            <img src={headShot} alt="avatar" style={{ height: "300px" }} />
+            <img src={headShot} alt="avatar" style={{ height: "300px", borderRadius: "10px" }} />
 
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               I am currently pursuing entry-level opportunities in the tech
@@ -22,28 +22,18 @@ class Contact extends Component {
             <h2>Contact Me</h2>
             <hr />
 
-            <div className="contact-list">
+            <div className="contact-list" style={{textAlign: 'center'}}>
               {/* Cell Phone Number */}
-              <List>
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i className="fa fa-phone-square" aria-hidden="true" />
-                    (609) 923-2399
-                  </ListItemContent>
-                </ListItem>
+              <ul>
+                <li style={{ fontSize: "30px", fontFamily: "Anton" }}>
+                    <a href="tel:1-609-923-2399">609-923-2399</a>
+                </li>
 
                 {/* Email Adress */}
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i className="fa fa-envelope" aria-hidden="true" />
-                    bprickril22@gmail.com
-                  </ListItemContent>
-                </ListItem>
-              </List>
+                <li style={{ fontSize: "30px", fontFamily: "Anton" }}>
+                  ><a href={"mailto:bprickril22@gmail.com"}>Email me!</a>
+                </li>
+              </ul>
             </div>
           </Cell>
         </Grid>

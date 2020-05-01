@@ -21,9 +21,7 @@ class AboutMe extends Component {
 
             <p style={{margin: "auto", paddingTop: "1em" }}>
               Brian is also particularly interested in opportunities in the
-              fintech industry. His passion for web development stemmed from the
-              discovery of Bitcoin and decentralized finance protocols. He
-              believes that we are entering a new paradigm in payment solutions
+              fintech industry. He believes that we are entering a new paradigm in payment solutions
               and is interested in exploring those technologies upon completion
               of his bootcamp. In his free time, Brian enjoys exploring the
               outdoors, playing video games, all things music-related, and

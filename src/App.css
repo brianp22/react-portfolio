@@ -61,24 +61,26 @@
 
 .contact-grid hr {
   border-top: 5px dotted;
-  color: #43cea2; /* fallback for old browsers */
-  color: -webkit-linear-gradient(
-    to right,
-    #185a9d,
-    #43cea2
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  color: linear-gradient(
-    to right,
-    #185a9d,
-    #43cea2
-  );
+  color: black;
   width: 50%;
   margin: auto;
 }
 
-.contact-list i {
-  font-size: 66px;
-  padding-right: 2rem;
+.contact-list {
+  margin-top: 20px;
+}
+
+.contact-list ul {
+  list-style-type: none;
+}
+
+.contact-list li {
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.contact-list a {
+  color: black;
 }
 
 .banner-text {
@@ -91,8 +93,8 @@
 }
 
 .banner-text h1 {
-  font-size: 68px;
-  font-weight: bold;
+  font-size: 60px;
+  font-family: "Anton", sans-serif;
   color: #43cea2; /* fallback for old browsers */
   color: -webkit-linear-gradient(
     to right,
@@ -109,7 +111,7 @@
 
 .banner-text h2 {
   font-size: 40px;
-  font-weight: bold;
+  font-family: "Anton", sans-serif;
   color: #43cea2; /* fallback for old browsers */
   color: -webkit-linear-gradient(
     to right,
@@ -153,35 +155,13 @@
     #43cea2
   );
   font-size: 20px;
+  font-family: "Anton", sans-serif;
   padding-top: 24px;
 }
 
 .avatar-img {
   height: 200px;
   border-radius: 10px;
-}
-
-.social-links {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin: auto;
-}
-
-.social-links i {
-  color: #43cea2; /* fallback for old browsers */
-  color: -webkit-linear-gradient(
-    to right,
-    #185a9d,
-    #43cea2
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  color: linear-gradient(
-    to right,
-    #185a9d,
-    #43cea2
-  );
-  font-size: 5em;
-  padding-bottom: 10px;
 }
 
 .footer {
@@ -213,3 +193,6 @@
   z-index: 1;
   -webkit-overflow-scrolling: touch;
 }
+
+@media only screen and (max-width: 480px) {
+.big-demo-content { text-align: center; }}

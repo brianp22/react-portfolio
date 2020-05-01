@@ -23,7 +23,7 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="projects-grid">
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card className="mb-4" shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "black",
@@ -51,7 +51,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card className="mb-4" shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "black",
@@ -86,7 +86,7 @@ class Projects extends Component {
       return (
         <div>
           <div className="projects-grid">
-            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <Card className="mb-4" shadow={5} style={{ minWidth: "450", margin: "auto" }}>
               <CardTitle
                 style={{
                   color: "black",
@@ -116,7 +116,7 @@ class Projects extends Component {
               </CardMenu>
             </Card>
 
-            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <Card className="mb-4" shadow={5} style={{ minWidth: "450", margin: "auto" }}>
               <CardTitle
                 style={{
                   color: "black",
@@ -152,7 +152,7 @@ class Projects extends Component {
       return (
         <div>
           <div className="projects-grid">
-            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <Card className="mb-4" shadow={5} style={{ minWidth: "450", margin: "auto" }}>
               <CardTitle
                 style={{
                   color: "black",
@@ -182,7 +182,7 @@ class Projects extends Component {
               </CardMenu>
             </Card>
 
-            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <Card className="mb-4" shadow={5} style={{ minWidth: "450", margin: "auto" }}>
               <CardTitle
                 style={{
                   color: "black",
@@ -215,7 +215,7 @@ class Projects extends Component {
       return (
         <div>
           <div className="projects-grid">
-            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <Card className="mb-4" shadow={5} style={{ minWidth: "450", margin: "auto" }}>
               <CardTitle
                 style={{
                   color: "white",
@@ -245,7 +245,7 @@ class Projects extends Component {
               </CardMenu>
             </Card>
 
-            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <Card className="mb-4" shadow={5} style={{ minWidth: "450", margin: "auto" }}>
               <CardTitle
                 style={{
                   color: "white",
