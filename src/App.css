@@ -44,10 +44,9 @@
 .contact-grid {
   text-align: center;
   justify-content: center;
-  width: 80%;
+  margin: 0;
   height: 550px;
   color: black;
-  margin-bottom: 20px;
 }
 
 .contact-grid h2 {
