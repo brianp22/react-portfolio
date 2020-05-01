@@ -13,7 +13,7 @@
 }
 
 .landing-grid {
-  background: white;
+  background: whitesmoke;
   text-align: center;
   top: 0;
   left: 0;
@@ -24,12 +24,12 @@
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
-  background: white;
+  background: whitesmoke;
 }
 
 .resume-right-col {
   background: #27221f;
-  color: white;
+  color: whitesmoke;
   padding: 2em;
 }
 
@@ -38,7 +38,7 @@
   width: 100%;
   height: 100%;
   justify-content: center;
-  background: white;
+  background: whitesmoke;
 }
 
 .contact-grid {
@@ -60,7 +60,18 @@
 }
 
 .contact-grid hr {
-  border-top: 5px dotted black;
+  border-top: 5px dotted;
+  color: #43cea2; /* fallback for old browsers */
+  color: -webkit-linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  );
   width: 50%;
   margin: auto;
 }
@@ -71,17 +82,7 @@
 }
 
 .banner-text {
-  background: #43cea2; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #185a9d,
-    #43cea2
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #185a9d,
-    #43cea2
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: whitesmoke;
   position: relative;
   width: 50%;
   margin: auto;
@@ -92,24 +93,65 @@
 .banner-text h1 {
   font-size: 68px;
   font-weight: bold;
-  color: white;
+  color: #43cea2; /* fallback for old browsers */
+  color: -webkit-linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  );
   margin-bottom: 0;
 }
 
 .banner-text h2 {
   font-size: 40px;
   font-weight: bold;
-  color: white;
+  color: #43cea2; /* fallback for old browsers */
+  color: -webkit-linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  );
 }
 
 .banner-text hr {
-  border-top: 5px dotted white;
+  border-top: 5px dotted;
+  color: #43cea2; /* fallback for old browsers */
+  color: -webkit-linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  );
   width: 50%;
   margin: auto;
 }
 
 .banner-text p {
-  color: white;
+  color: #43cea2; /* fallback for old browsers */
+  color: -webkit-linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  );
   font-size: 20px;
   padding-top: 24px;
 }
@@ -127,7 +169,17 @@
 }
 
 .social-links i {
-  color: white;
+  color: #43cea2; /* fallback for old browsers */
+  color: -webkit-linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  );
   font-size: 5em;
   padding-bottom: 10px;
 }
@@ -135,7 +187,7 @@
 .footer {
   text-align: center;
   justify-content: center;
-  color: white;
+  color: whitesmoke;
   padding: 10px;
   background: #43cea2; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -152,7 +204,7 @@
 
 .mdl-layout__content {
   -ms-flex: 0 1 auto;
-  background: white;
+  background: whitesmoke;
   position: relative;
   display: inline-block;
   overflow-y: auto;

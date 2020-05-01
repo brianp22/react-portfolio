@@ -12,9 +12,9 @@ function App() {
     <Layout>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/" >My Portfolio</Link>} scroll>
             <Navigation>
-                <Link to="/aboutme">ABOUT ME</Link>
-                <Link to="/projects">PROJECTS</Link>
-                <Link to="/contact">CONTACT</Link>
+                <Link to="/aboutme">About</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color: 'Black'}} to="/" >My Portfolio</Link>}>
@@ -34,3 +34,5 @@ function App() {
 }
 
 export default App;
+
+// 

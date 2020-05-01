@@ -11,7 +11,7 @@ class AboutMe extends Component {
             <h2>Brian Prickril</h2>
             <img src={headShot} alt="avatar" style={{ height: "300px", borderRadius: "10px" }} />
 
-            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
+            <p style={{margin: "auto", paddingTop: "1em" }}>
               Brian is currently a full-stack development student who will be
               receiving his certification from The University of Pennyslvania in
               May 2020. During this coding bootcamp, Brian will have gained
@@ -19,7 +19,7 @@ class AboutMe extends Component {
               MongoDB, and MySQL.{" "}
             </p>
 
-            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
+            <p style={{margin: "auto", paddingTop: "1em" }}>
               Brian is also particularly interested in opportunities in the
               fintech industry. His passion for web development stemmed from the
               discovery of Bitcoin and decentralized finance protocols. He
